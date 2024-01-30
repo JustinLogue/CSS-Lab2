@@ -1,0 +1,47 @@
+/** Global Classes **/
+.f-row{display: flex;}
+.g-row{display: grid;}
+.col-1{grid-template-columns: 100%;}
+.col-2{grid-template-columns: 50% 50%;}
+.col-3{grid-template-columns: repeat(3, 1fr);}
+.masthead{
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+}
+.btn{
+    padding: 15px 40px;
+    border: solid 2px #0e0e0e;
+    text-decoration: none;
+    color:#0e0e0e;
+    transition: all .25s ease-in-out;
+}
+/** General Styling **/
+
+/** Complementary **/
+/*
+** Colors:
+** #5B00BF (Main)
+** #65BF00 (Accent)
+** #F8F8F8 (Accent)
+** #0E0E0E (Accent)
+*/
+
+/** Triadic **/
+/*
+** Colors:
+** #FF0052 (Main)
+** #47DD00 (Accent)
+** #0052FF (Accent)
+** #F8F8F8 (Accent)
+** #0E0E0E (Accent)
+*/
+
+/** Monochrome **/
+/*
+** Colors:
+** #0E0E0E (Main)
+** #282828 (Accent)
+** #F8F8F8 (Accent)
+*/
